@@ -1,9 +1,13 @@
 ;;; y-ret-or-n-p.el --- Enable [RET] for fast agreement as yes when emacs querying.
 
-;; Copyright (C) 2016 Jianming Qu <https://jmqu.tech>
+;; Copyright (C) 2016 Jianming Qu
 
-;; Author: Jianming Qu
-;; URL: https://github.com/SanCoder-Q/y-ret-or-n-p.el
+;; Author: Jianming Qu <sancoder.q@gmail.com>
+;; Maintainer: Jianming Qu <sancoder.q@gmail.com>
+;; Created: 22 Aug 2016
+
+;; Keywords: query, yes, no
+;; Homepage: https://github.com/SanCoder-Q/y-ret-or-n-p.el
 ;; Version: 0.0.1
 
 ;; This file is NOT part of GNU Emacs.
