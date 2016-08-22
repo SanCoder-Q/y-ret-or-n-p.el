@@ -1,0 +1,21 @@
+#+OPTIONS: H:2
+#+STARTUP: indent
+#+STARTUP: showall
+#+PROPERTY: header-args :results silent
+
+* y-ret-or-n-p.el
+
+*y-ret-or-n-p.el* is an simple emacs plugin for replacing the original function ~yes-or-no-p~ and ~y-or-n-p~ in order to make your agreement faster.
+
+** Different
+- Before install: ~File does not exist, create buffer? (yes or no)~
+- Before install: ~File does not exist, create buffer? (y or n)~
+- After install: ~File does not exist, create buffer? (y [RET] or n)~
+
+** How this works
+*y-ret-or-n-p.el* is using ~defalias~ to override the original function.
+
+** Installation
+1. Put *y-ret-or-n-p.el* (from this repository) to your Emacs ~load-path~.
+2. Add ~(require 'y-ret-or-n-p)~ to your Emacs init file (usually =~/.emacs.d/init.el=)
+
