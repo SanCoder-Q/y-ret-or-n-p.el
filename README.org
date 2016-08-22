@@ -2,10 +2,10 @@
 #+STARTUP: indent
 #+STARTUP: showall
 #+PROPERTY: header-args :results silent
-
+ 
 * y-ret-or-n-p.el
 
-*y-ret-or-n-p.el* is an simple emacs plugin for replacing the original function ~yes-or-no-p~ and ~y-or-n-p~ in order to make your agreement faster.
+*y-ret-or-n-p.el* is a simple emacs plugin for replacing the original function ~yes-or-no-p~ and ~y-or-n-p~ in order to make your agreement faster.
 
 ** Different
 - Before install: ~File does not exist, create buffer? (yes or no)~
