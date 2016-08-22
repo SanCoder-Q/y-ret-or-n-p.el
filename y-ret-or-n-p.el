@@ -3,12 +3,9 @@
 ;; Copyright (C) 2016 Jianming Qu
 
 ;; Author: Jianming Qu <sancoder.q@gmail.com>
-;; Maintainer: Jianming Qu <sancoder.q@gmail.com>
-;; Created: 22 Aug 2016
-
+;; Version: 1.0
 ;; Keywords: query, yes, no
-;; Homepage: https://github.com/SanCoder-Q/y-ret-or-n-p.el
-;; Version: 0.0.1
+;; URL: https://github.com/SanCoder-Q/y-ret-or-n-p.el
 
 ;; This file is NOT part of GNU Emacs.
 ;;
@@ -93,3 +90,7 @@
 
 (defalias 'yes-or-no-p 'y-ret-or-n-p)
 (defalias 'y-or-n-p 'y-ret-or-n-p)
+
+(provide 'y-ret-or-n-p)
+
+;;; y-ret-or-n-p.el ends here
