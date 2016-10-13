@@ -33,6 +33,11 @@
 ;;; Code:
 
 (defun y-ret-or-n-p (prompt)
+  "Ask user a question.
+  Return t if answer is \"y\" or hit the <Ret> directly. 
+  Return nil if answer is \"n\".
+  This is inspired by the function y-or-n-p from subr.el.
+  Warning: This function will increase the risk of confirming by mistake."
   (let ((answer 'recenter)
         (padded (lambda (prompt &optional dialog)
                   (let ((l (length prompt)))

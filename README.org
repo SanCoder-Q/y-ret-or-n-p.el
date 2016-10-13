@@ -7,6 +7,8 @@
 
 *y-ret-or-n-p.el* is a simple emacs plugin for replacing the original function ~yes-or-no-p~ and ~y-or-n-p~ in order to make your agreement faster.
 
+*Warning: The function will increase the risk of confirming by mistake.*
+
 ** Different
 - Before install: ~File does not exist, create buffer? (yes or no)~
 - Before install: ~File does not exist, create buffer? (y or n)~
