@@ -23,7 +23,12 @@
 ;; Public License.
 
 ;;; Commentary:
-;; See readme (http://github.com/sancoder-q/y-ret-or-n-p.el) for installation and usage
+;;
+;; | Command       | You have to type                        |
+;; |---------------+-----------------------------------------|
+;; | yes-or-no-p   | 'yes' or 'no', followed by RET          |
+;; | y-or-n-p      | 'y' or 'n', followed by RET             |
+;; | y-ret-or-n-p  | RET to confirm straight away or 'n' RET |
 
 ;;; Code:
 
