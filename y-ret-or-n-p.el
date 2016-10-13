@@ -29,6 +29,9 @@
 ;; | yes-or-no-p   | 'yes' or 'no', followed by RET          |
 ;; | y-or-n-p      | 'y' or 'n', followed by RET             |
 ;; | y-ret-or-n-p  | RET to confirm straight away or 'n' RET |
+;;
+;; NOTE: this package aliases `yes-or-no-p' & `y-or-n-p' in order to
+;; achieve this functionality
 
 ;;; Code:
 
